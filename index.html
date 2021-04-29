@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!----for mobile responsive--->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" 
+	 href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		.a{
+			background: url(https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+			width: 100%; height: 650px; opacity: .9;
+		}
+		.forest{
+              color: white; margin-left: 40px; font-size: 35px; font-family: sans-serif;  letter-spacing: 1px;
+		}
+		.font{
+			font-size: 20px; font-family: sans-serif; letter-spacing: 1px; color: white;
+		}
+		.b{
+            padding-top: 300px;
+		}
+		.Global{
+            font-size: 30px; font-family: monospace; letter-spacing: 1px;
+		}
+		.save{
+			font-size: 40px; font-family: cursive; letter-spacing: 1px;
+		}
+		p{
+          font-size: 15px; font-family: sans-serif; letter-spacing: 1px;
+		}
+		.about{
+              background: white; color: #abdc58; border-radius: 21px; font-size: 16px;
+                border: hidden; width: 130px; height: 40px;
+		}
+		.join{
+             background: #abdc58; color: white; font-size: 16px; width: 100px;
+            height: 40px; border-radius: 22px; border: hidden;
+		}
+		.h{
+           color: #abdc58; font-size: 25px; font-family: sans-serif;
+		}
+		.standing{
+           font-size: 28px; font-family: 'FontAwesome'; font-weight: bold; letter-spacing: 1px;
+		}
+		.mission{
+			font-size: 28px; font-family: 'FontAwesome'; letter-spacing: 1px;
+		}
+		.c{
+		background: url(https://images.unsplash.com/photo-1448375240586-882707db888b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZXN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+			width: 100%; height: 100%; opacity: .9;
+		}
+		.box{
+            border: hidden; background: white; height: 200px; padding-top: 22px;
+		}
+		.i{
+			font-size: 30px;
+		}
+		.i-2{
+            font-size: 25px;  color: whitesmoke;
+		}
+		.num{
+           font-size: 20px; font-weight: bold;
+		}
+		.bg{
+			width: 100%; height: 100%; background-color: #abdc58;
+		}
+		.f{
+          width: 100%; height: 100px; box-shadow: 4px 6px 6px grey, 4px -5px 0px white;
+		}
+		.box-2nd{
+			 border: hidden; background: white; height: 300px; padding-top: 22px;
+	    }
+	    .bg-2{
+			width: 100%; height: 300px; background-color: #abdc58;;
+		}
+		.book{
+			background: #abdc58; color: white; width: 110px; height: 40px;
+               border-radius: 22px; border: hidden;
+		}
+		.play{
+            font-size: 40px; color: white; background: black; border: hidden;
+               border-radius: 50%;
+		}
+		.social{
+			font-size: 20px; color: white; height: 40px; width: 40px; 
+             border-radius: 50%; background: black; padding: 10px;
+		}
+		.send{
+           background: #abdc58; width: 100%; height: 40px; border-radius: 20px; border: hidden; color: white; font-size: 18px; font-family: sans-serif;
+               letter-spacing: 1px;
+		}
+		.m{
+			 margin-top: 20px;
+		}
+		.footer{
+             box-shadow: 5px 5px 5px grey, -5px -5px 5px white;
+		}
+		.pro{
+            font-size: 25px; text-align: center; font-family: cursive; color: crimson;
+		}
+	</style>
+    
+
+</head>
+<body>
+
+<!----------------------------navbar start-------------------------------------->
+<nav class="navbar navbar-expand-md navbar-light fixed-top ">
+
+    <a href="" class="navbar-brand">
+    	<h2 class="forest">Forest</h2>
+    </a> 
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+   <div class="collapse navbar-collapse" id="a">
+    <ul class="navbar-nav ml-auto" >
+      <li class="nav-item ">
+        <a href="" class="nav-link font text-white">Home</a></li>
+      <li class="nav-item">
+        <a href="" class="nav-link font text-white">About</a></li>
+      <li class="nav-item">
+      <a href="" class="nav-link font text-white"> Service</a></li>
+      <li class="nav-item ">
+        <a href="" class="nav-link font text-white">Gallery</a></li>
+      <li class="nav-item">
+      <a href="" class="nav-link font text-white">Team</a></li>
+      <li class="nav-item">
+      <a href="" class="nav-link font text-white">Contact</a></li>  
+     </ul>       
+    </div>
+</nav> <!---------------------------navbar end---------------------------------->
+
+<div class="a text-white"> <!--------------background image start-------------->
+	<center>
+	<div class="b">
+	<h3 class="Global">Global warming</h3>
+	<h2 class="save">Save Forest Save Earth</h2>
+	<p class="p">lorem-ipsum is a JavaScript module for generating passages of lorem ipsum text. Lorem ipsum text is <br> commonly used as placeholder text in </p> <br>
+	<button class="about">About us</button>
+	<button class="join">Join us</button>
+   </div>
+	</center>
+
+</div> <!--------------background image end--------------> <br><br>
+
+<div class="container"> <!---------------- 1st container start----------------->
+	<center>
+		<h3 class="h">What we do</h3>
+		<h2 class="standing">STANDING TOGETHER FOR BETTER WORLD</h2> <br>
+		<p class="p">Lorem ipsum text is a scrambled version of a passage in classical Latin <br> derived from the Marcus Tullius Cicero's treatise on ethics </p>
+	</center>
+	
+</div><!------------------------- 1st container end----------------------> <br>
+
+<div class="container"><!---------------- 2nd container start----------------->
+	<div class="row"><!----------------------row start---------------------->
+		<div class="col-md-5">
+			<img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/redwood-tree-forest-ferns-art-prints-giclee-baslee-troutman-baslee-troutman-fine-art-prints-collections.jpg" width="100%" height="350px">
+		</div>
+
+		<div class="col-md-7">
+			<h3 class="h">About Us</h3>
+			<h3 class="mission">we cannot afford to fail in our mission to save a living planet</h3>
+			<p class="p">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen boo</p> <br>
+
+			<div class="row"><!-----------row start----------->
+
+				<div class="col-md-4"><!----------col-md-4 start--------------->
+				    <div class="progress" style="height: 40px;">
+		             <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%; height: 40px">90% </div>
+                   </div> <br>
+                   <h3 class="pro">Save Plants</h3>
+				</div><!----------col-md-4 end--------------->
+
+				<div class="col-md-4"><!----------col-md-4 start--------------->
+				    <div class="progress" style="height: 40px;">
+		             <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%; height: 40px">80% </div>
+                   </div> <br>
+                   <h3 class="pro">Planting</h3>
+				</div><!----------col-md-4 end--------------->
+
+				<div class="col-md-4"><!----------col-md-4 start--------------->
+				    <div class="progress" style="height: 40px;">
+		             <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%; height: 40px">70% </div>
+                   </div> <br>
+                   <h3 class="pro">Save Trees</h3>
+				</div><!----------col-md-4 end--------------->
+
+			</div><!-----------row end----------->
+
+		</div>
+	</div><!---------------------------row end---------------------------->
+</div><!------------------------2nd container end----------------------><br><br>
+
+<div class="c"><!-------------2nd background start---------------->
+	<div class="container"> <!-------------3rd container start-------------->
+		<div class="row" style="padding-top: 60px;"> <!----- 1strow start------->
+			<div class="col-md-6">
+				<p class="p text-white">Lorem ipsum text is a scrambled version of a passage in classical Latin derived from the Marcus </p>
+			</div>
+
+			<div class="col-md-6">
+				<h3 class="h">what we provide</h3>
+				<h2 class="text-white">Our Services</h2>
+			</div>
+		</div><!------------------1st row end--------------------> <br><br>
+
+		<div class="row"><!-------2nd row start------------>
+
+			<div class="col-md-4">
+				<div class="card box">
+				<center>
+					<i class="fa fa-pagelines i" aria-hidden="true"></i><br>
+					<h3 class="h">Planting</h3> <br>
+					<p class="p">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit</p>
+				</center>
+		    	</div> <br>
+			</div>
+
+			<div class="col-md-4 ">
+				<div class="card box">
+				<center>
+					<i class="fa fa-pagelines i" aria-hidden="true"></i><br>
+					<h3 class="h">wildlife</h3> <br>
+					<p class="p">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit</p>
+				</center>
+			    </div> <br>
+			</div>
+
+			<div class="col-md-4 ">
+				<div class="card box">
+				<center>
+					<i class="fa fa-tree i" aria-hidden="true"></i><br>
+					<h3 class="h">Save Plants</h3> <br>
+					<p class="p">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit</p>
+				</center>
+		      	</div> <br>
+			</div>
+			
+		</div><!--------------- 2nd row end-----------------> <br>
+
+		<div class="row"><!-------3rd row start------------>
+
+			<div class="col-md-4">
+				<div class="card box">
+				<center>
+					<i class="fa fa-tint i" aria-hidden="true"></i><br>
+					<h3 class="h">watering</h3> <br>
+					<p class="p">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit</p>
+				</center>
+		    	</div> <br>
+			</div>
+
+			<div class="col-md-4 ">
+				<div class="card box">
+				<center>
+					<i class="fa fa-envira i" aria-hidden="true"></i><br>
+					<h3 class="h">save trees</h3> <br>
+					<p class="p">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit</p>
+				</center>
+			    </div> <br>
+			</div>
+
+			<div class="col-md-4 ">
+				<div class="card box">
+				<center>
+					<i class="fa fa-tree i" aria-hidden="true"></i><br>
+					<h3 class="h">eco climate</h3> <br>
+					<p class="p">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit</p>
+				</center>
+		      	</div> <br>
+			</div>
+			
+		</div><!--------------- 3rd row end----------------->
+
+	</div> <!----------------- 3rd container end--------------------->
+</div><!-------------------2nd background end---------------------><br><br>
+
+<div class="container"><!--------------- 4th container start------------>
+	<div class="row"><!-----------------row start------------------>
+		<div class="col-md-6" style="text-align: end;">
+			<h3 class="h">See our work</h3>
+			<h2>Our Gallery</h2>
+		</div>
+		<div class="col-md-6">
+			<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore </p>
+		</div>
+	</div><!--------------------row end------------------->
+</div><!--------------- 4th container end----------------> <br>
+
+<div class="container"><!------------5th container start---------------->
+	<div class="row"><!-------------row start---------------------->
+		<div class="col-md-6">
+			<div class="card">
+			<img src="https://ak.picdn.net/shutterstock/videos/6204728/thumb/11.jpg" width="100%" height="400px">
+		    </div> <br>
+		</div> 
+
+		<div class="col-md-3">
+			<div class="card">
+			<img src="https://cdn.thegrommet.com/media/catalog/resized/product/fill_w-762_h-572_bg-%23ffffff/2/9/2986-CON-400_BST.jpg" width="100%" height="200px;">
+		    </div> <br>
+		</div> 
+
+		<div class="col-md-3">
+			<div class="card">
+			<img src="https://wallpapercave.com/wp/wp4594106.png" width="100%" height="300px;">
+	    	</div> <br>
+		</div> 
+
+		<div class="col-md-3">
+			<div class="card">
+			<img src="https://image.freepik.com/free-photo/group-girls-camping-forest_1303-9484.jpg" width="100%" height="200px;">
+		    </div> <br>
+		</div> 
+
+		<div class="col-md-3">
+			<div class="card">
+			<img src="https://images1.westend61.de/0001260863pw/girls-running-through-forest-JOHF01369.jpg" width="100%" height="200px;">
+	    	</div> <br>
+		</div> 
+
+		<div class="col-md-3">
+			<div class="card">
+			<img src="https://cdn.thegrommet.com/media/catalog/resized/product/fill_w-762_h-572_bg-%23ffffff/2/9/2986-CON-400_BST.jpg" width="100%" height="200px;">
+		    </div> <br>
+		</div> 
+
+		<div class="col-md-3">
+			<div class="card">
+			<img src="https://wallpapercave.com/wp/wp4594106.png" width="100%" height="200px;">
+	    	</div> <br>
+		</div> 
+
+	</div><!-------------------row end---------------------->
+</div><!------------5th container end---------------->
+
+<div class="container-fluid bg"><!---------6th container start---------->
+	<div class="row"><!------------------row start---------------------->
+		<div class="col-md-3"> <br><br>
+			<center>
+			<i class="fa fa-tree i-2" aria-hidden="true"></i>
+			<p class="num">1200</p>
+			<p class="font">save</p>
+		    </center>
+		</div>
+
+		<div class="col-md-3"> <br><br>
+			<center>
+			<i class="fa fa-smile-o i-2" aria-hidden="true"></i>
+			<p class="num">1200</p>
+			<p class="font">save</p>
+		    </center>
+		</div>
+
+		<div class="col-md-3"> <br><br>
+			<center>
+			<i class="fa fa-leaf i-2" aria-hidden="true"></i>
+			<p class="num">1200</p>
+			<p class="font">save</p>
+		    </center>
+		</div>
+
+		<div class="col-md-3"> <br><br>
+			<center>
+			<i class="fa fa-globe i-2" aria-hidden="true"></i>
+			<p class="num">1200</p>
+			<p class="font">save</p>
+		    </center>
+		</div>
+	</div><!-----------------------row end----------------------><br>
+</div><!--------------------6th container end-------------------> <br><br>
+
+<div class="container"><!------------7th container start----------------->
+	<div class="row"><!--------------1st row start------------------>
+		<div class="col-md-6">
+			<p class="p" style="text-align: end;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore </p>
+		</div>
+
+		<div class="col-md-6">
+			<h3 class="h">Our hard work</h3>
+			<h2>Our Features</h2>
+		</div>
+	</div><!---------------------1st row end--------------------><br><br>
+
+	<div class="row"><!----------------2nd row start--------------->
+		<div class="col-md-4">
+			<img src="https://cdn.downtoearth.org.in/library/large/2018-10-29/0.30726300_1540813177_plant.jpg" width="100%" height="350px;">
+		</div>
+
+		<div class="col-md-8">
+			<div class="row f">
+				<div class="col-md-4" style="padding-top: 30px">
+					<center>
+					<i class="fa fa-tree i" aria-hidden="true"></i>
+				    </center>
+				</div>
+
+				<div class="col-md-8 ">
+					<h3 class="h">planting trees and plants</h3>
+					<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor</p>
+				</div> 
+			</div> <br> 
+
+          
+			<div class="row f">
+				<div class="col-md-4" style="padding-top: 30px">
+					<center>
+					<i class="fa fa-cloud-upload i" aria-hidden="true"></i>
+				    </center>
+				</div>
+			
+				<div class="col-md-8 ">
+					<h3 class="h">Change Climate Bio-Epoxy</h3>
+					<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor</p>
+				</div> 
+			</div> <br>
+
+			<div class="row f">
+				<div class="col-md-4" style="padding-top: 30px">
+					<center>
+					<i class="fa fa-tree i" aria-hidden="true"></i>
+				    </center>
+				</div>
+				<div class="col-md-8 ">
+					<h3 class="h">Reduce Pollution For Life</h3>
+					<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor</p>
+				</div> 
+			</div>
+
+		</div>
+	</div><!-------------------2nd row end----------------------->
+</div><!---------------------7th container end-------------------> <br><br>
+
+<div class="a" style="height: 100%">
+	<div class="container"><!----------------container start------------->
+		<div class="row" style="padding-top: 40px;"><!-----1st row start------>
+			<div class="col-md-6" style="text-align: end;">
+				<h3 class="h">Our Plans</h3>
+				<h2 style="color: white;">Our Price</h2>
+			</div>
+
+			<div class="col-md-6"> <br>
+				<p class="p text-white">Lorem ipsum dolor  sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore</p>
+			</div>
+			
+		</div><!------------------- 1st row end--------------------><br>
+
+		<div class="row"><!-------------2nd row start--------------->
+			<div class="col-md-3">
+				<center>
+				<div class="card box-2nd">
+					<h3 class="h">GOLDEN</h3>
+					<h3 style="font-size: 22px;">$<span class="h">50/</span>month</h3>
+				    <p class="p">Lorem ipsum <br> dolor sit <br>consectetuer <br> adipiscing <br> lorem ipsum</p>
+				   <center> <button class="book">Book Now</button> </center>
+				</div>
+                </center>
+			</div> 
+
+			<div class="col-md-3">
+				<center>
+				<div class="card box-2nd">
+					<h3 class="h">PREMIMUM</h3>
+					<h3 style="font-size: 22px;">$<span class="h">60/</span>month</h3>
+				    <p class="p">Lorem ipsum <br> dolor sit <br>consectetuer <br> adipiscing <br> lorem ipsum</p>
+				   <center> <button class="book">Book Now</button> </center>
+				</div>
+                </center>
+			</div>
+
+			<div class="col-md-3">
+				<center>
+				<div class="card box-2nd">
+					<h3 class="h">PLATINIUM</h3>
+					<h3 style="font-size: 22px;">$<span class="h">70/</span>month</h3>
+				    <p class="p">Lorem ipsum <br> dolor sit <br>consectetuer <br> adipiscing <br> lorem ipsum</p>
+				    <center><button class="book">Book Now</button> </center>
+				</div>
+                </center>
+			</div>
+
+			<div class="col-md-3">
+				<center>
+				<div class="card box-2nd">
+					<h3 class="h">SILVER</h3>
+					<h3 style="font-size: 22px;">$<span class="h">80/</span>month</h3>
+				    <p class="p">Lorem ipsum <br> dolor sit <br>consectetuer <br> adipiscing <br> lorem ipsum</p>
+				  <center> <button class="book">Book Now</button> </center>
+				</div>
+                </center>
+			</div>
+
+		</div><!--------------2nd row end-------------------> <br><br><br>
+
+	</div><!-----------------container end-------------------------->
+</div> <br><br>
+
+<div class="container"><!---------------8th container start--------------->
+	<div class="row"><!--------------1 st row start----------------->
+		<div class="col-md-6">
+			<p class="p" style="text-align: end;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labor</p>
+		</div>
+		<div class="col-md-6">
+			<h3 class="h">What say peoples</h3>
+			<h2>Our Clients</h2>
+		</div>
+	</div><!--------------1 st row end-----------------> <br>
+
+	<div class="row"><!--------------2nd row start----------------->
+		<div class="col-md-4">
+			<img src="http://webtoolfeed.files.wordpress.com/2011/12/1.jpg" width="50%;" height="100px;">
+			<h3 class="h">divyam</h3>
+			<h4>Our Client</h4>
+			<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore</p>
+		</div>
+
+		<div class="col-md-4">
+			<img src="http://webtoolfeed.files.wordpress.com/2011/12/1.jpg" width="50%;" height="100px;">
+			<h3 class="h">divyam</h3>
+			<h4>Our Client</h4>
+			<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore</p>
+		</div>
+
+		<div class="col-md-4">
+			<img src="http://webtoolfeed.files.wordpress.com/2011/12/1.jpg" width="50%;" height="100px;">
+			<h3 class="h">divyam</h3>
+			<h4>Our Client</h4>
+			<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labore</p>
+		</div>
+	</div><!--------------2nd row end----------------->
+
+</div><!---------------8th container end---------------> <br>
+
+<div class="container-fluid bg-2">
+	<center>
+	<div class="row" style="padding-top: 100px;">	
+		<div class="col-md-12">
+		<center>
+		<i class="fa fa-play-circle play" aria-hidden="true"></i> 
+		<h2 class="text-white">Save Forest And Nature</h2>
+		<p class="p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labor</p> 
+		</center>
+	    </div>   
+	</div>
+    </center>
+</div> <br><br>
+
+<div class="container"><!----------------9th container start--------------->
+	<div class="row"><!-------------1st row start----------------->
+		<div class="col-md-6">
+		<p class="p" style="text-align: end;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labor</p>
+	    </div>
+
+	    <div class="col-md-6">
+	    	<h3 class="h">We Are Best </h3>
+	    	<h2>Our Volunteer</h2>
+	    </div>
+	</div><!---------------------1st row end--------------------><br>
+
+	<div class="row"><!--------------2nd row start-------------->
+		<div class="col-md-3">
+			<div class="card">
+				<img src="https://pbs.twimg.com/profile_images/1270425854137548800/vBTZcDTv_400x400.jpg" width="100%" height="300px;"> <br>
+				<center>
+				<h3 class="h">Yuvraj</h3>
+				<p>Volunteer</p>
+				<p>
+				<a href=""><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-twitter social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
+		    	</p>
+			    </center>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card">
+				<img src="https://static.toiimg.com/thumb/msid-71011084,imgsize-137282,width-800,height-600,resizemode-75/71011084.jpg" width="100%" height="300px;"> <br>
+				<center>
+				<h3 class="h">Rishabh</h3>
+				<p>Volunteer</p>
+				<p>
+				<a href=""><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-twitter social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
+		    	</p>
+			    </center>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card">
+				<img src="https://www.luxebook.in/wp-content/uploads/2020/02/kl-rahul-exhibit4205-copy-scaled.jpg" width="100%" height="300px;"> <br>
+				<center>
+				<h3 class="h">KL Rahul</h3>
+				<p>Volunteer</p>
+				<p>
+				<a href=""><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-twitter social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
+		    	</p>
+			    </center>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card">
+				<img src="https://st1.photogallery.ind.sh/wp-content/uploads/indiacom/rohit-sharma-all-set-to-enjoy-euro-2016-in-france-201606-1467105177.jpg" width="100%" height="300px;"> <br>
+				<center>
+				<h3 class="h">Rohit</h3>
+				<p>Volunteer</p>
+				<p>
+				<a href=""><i class="fa fa-facebook social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-twitter social" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-linkedin social" aria-hidden="true"></i></a>
+		    	</p>
+			    </center>
+			</div>
+		</div>
+	</div><!----------------2nd row end------------------>
+</div><!----------------9th container end------------------> <br><br>
+
+<!-------------------------------footer start----------------------------->
+<div class="container-fluid">
+	<div class="container">
+		<div class="row"><!------------1st row start-------------------->
+			<div class="col-md-6">
+				<p class="p" style="text-align: end;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit set do eiusmod tempor incididunt at labor</p>
+			</div>
+
+			<div class="col-md-6">
+				<h3 class="h">Get in Touch</h3>
+				<h2 class="">Contact Us</h2>
+			</div>
+		</div><!------------1st row end-------------------> <br><br>
+
+		<div class="row"><!-----------2nd row start------------->
+			<div class="col-md-6"><!------1st col-md-6 start----------->
+			 <form>
+   	          <div class="form-group">
+   	      	   <input type="text"name=""class="form-control footer" placeholder="Name">	
+   	          </div>
+
+   	         <div class="form-group">
+   	      	   <input type="text"name=""class="form-control footer" placeholder="Email">
+   	         </div>
+
+   	         <div class="form-group">
+   	      	   <input type="text"name=""class="form-control footer" placeholder="phone">
+   	         </div>
+
+			 <div class="form-group">
+   	      	   <input type="text"name=""class="form-control footer" placeholder="message">
+   	         </div>
+
+   	         <div class="form-group">
+   	         	<textarea rows="2" cols="9" placeholder="message" style="width: 100%;" class="footer"></textarea>
+   	         </div>
+			
+			<button class="send">Send</button>
+
+			</div><!---------------- 1st col-md-6 end------------------------>
+
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-3 m">
+					<center><i class="fa fa-home i" aria-hidden="true"></i></center>
+					</div>
+
+					<div class="col-md-9">
+					<h3 class="h">Address</h3> 
+					<p class="p">South Brisbane old 4101, Australia</p>
+				    </div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 m">
+					<center><i class="fa fa-phone i" aria-hidden="true"></i></center>
+				    </div>
+
+				    <div class="col-md-9">
+					<h3 class="h">phone</h3> 
+					<p class="p">+1(234) 567 8901 <br> +1(234) 567 8901</p>
+			     	</div> 
+
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 m">
+					<center><i class="fa fa-envelope i" aria-hidden="true"></i></center>
+				    </div>
+
+				    <div class="col-md-9">
+					<h3 class="h">mail</h3> 
+					<p class="p">info@example.com <br> info2@ecample.com</p>
+				    </div>
+				</div>
+
+			</div>
+
+		</div><!---------------2nd row end---------------->
+	</div>	<br><br>
+</div>
+<!-------------------------------footer end----------------------------->
+
+</body>
+</html>
